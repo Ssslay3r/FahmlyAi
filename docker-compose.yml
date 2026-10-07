@@ -1,0 +1,4 @@
+# Reserved for future local backend and PostgreSQL services with pgvector.
+# Applications and Dockerfiles have not been initialized yet.
+# Replace this empty service map when container configuration is designed.
+services: {}

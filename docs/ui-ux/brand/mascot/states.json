@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "states": {
+    "idle": {"expression": "default", "label": "Ready to help", "labelAr": "جاهز لمساعدتك"},
+    "greeting": {"expression": "happy", "label": "Welcome back", "labelAr": "أهلاً بعودتك"},
+    "listening": {"expression": "default", "label": "Listening to your question", "labelAr": "أستمع لسؤالك"},
+    "thinking": {"expression": "thinking", "label": "Thinking about your question", "labelAr": "أفكر في سؤالك"},
+    "reading": {"expression": "thinking", "label": "Reading your material", "labelAr": "أقرأ مادتك الدراسية"},
+    "explaining": {"expression": "default", "label": "Explaining step by step", "labelAr": "أشرح لك خطوة بخطوة"},
+    "working": {"expression": "thinking", "label": "Preparing your document", "labelAr": "أجهز مستندك"},
+    "quiz": {"expression": "default", "label": "Let's practice", "labelAr": "هيا نتدرب"},
+    "success": {"expression": "success", "label": "Nicely done", "labelAr": "أحسنت"},
+    "encouraging": {"expression": "happy", "label": "Every attempt helps you learn", "labelAr": "كل محاولة تساعدك على التعلم"},
+    "error": {"expression": "default", "label": "Let's try again", "labelAr": "لنحاول مرة أخرى"},
+    "offline": {"expression": "default", "label": "Waiting for a connection", "labelAr": "بانتظار الاتصال"}
+  },
+  "assets": {
+    "default": "default/rafeeq-default.png",
+    "thinking": "thinking/rafeeq-thinking.png",
+    "success": "success/rafeeq-success.png",
+    "happy": "happy/rafeeq-happy.png"
+  },
+  "note": "Non-specific states use the nearest approved expression, with state-specific text. This registry specifies future client behavior; it does not implement production AI."
+}
